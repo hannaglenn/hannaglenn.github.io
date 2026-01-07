@@ -1,0 +1,425 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEmory}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[1]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+
+
+\begin{center}
+    {\huge \scshape Hanna Glenn} \\ \vspace{5pt}
+    1602 Fishburne Drive, Atlanta, GA 30033 \\ \vspace{5pt}
+    \small \raisebox{-0.1\height}\faPhone\ 907-301-5447 ~ \href{mailto:hkagele@emory.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{hanna.glenn@emory.edu}} ~ 
+    \href{https://linkedin.com/in/hanna-glenn/}{\raisebox{-0.2\height}\faLinkedin\ \underline{hanna-glenn}}  ~
+    \href{https://github.com/hannaglenn}{\raisebox{-0.2\height}\faGithub\ \underline{hannaglenn}} ~
+    \href{https://hannaglenn.netlify.app/}{\raisebox{-0.2\height}\faLaptop\ \underline{https://hannaglenn.netlify.app/}}
+    \vspace{-8pt}
+\end{center}
+
+\vspace{5mm}
+
+%-----------EDUCATION-----------
+\section{Fields}
+Health Economics, Firm Organization, Labor Economics
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingEmory
+      {Emory University}{Atlanta, GA}
+      {Ph.D. in Economics}{Spring 2025 (Expected)}
+      {M.A. in Economics}{Fall 2022}
+      \begin{itemize}
+          \item \small Cumulative GPA: 3.9
+      \end{itemize}
+      
+      \resumeSubheading
+      {Georgia College $\&$ State University}{Milledgeville, GA}
+      {B.S. in Economics; B.S. in Mathematics}{Spring 2019}
+      \begin{itemize}
+          \item \small Cumulative GPA: 3.9
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+  % ------------ FELLOWSHIPS --------------------
+
+\section{Fellowships}
+
+\vspace{-2pt}
+
+      \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Data Services Fellow | Emory Center for Digital Scholarship} & \textit{\small Fall 2024 -- Current}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{I provide consultation for students and faculty regarding data resources available both publicly and through the University.}
+      \resumeItemListEnd
+
+
+%------RELEVANT COURSEWORK-------
+% \section{PhD Coursework}
+% First Year Sequence:
+% \vspace{3pt}
+% \begin{multicols}{2}
+%     \begin{itemize}[itemsep=-5pt]
+%         \item  Micro Theory I \& II
+%         \item Macro Theory I \& II
+%         \item Probability Theory and Statistical Inference
+%         \item Econometrics I
+%     \end{itemize}
+    
+% \end{multicols}  
+
+% \vspace{7pt}
+    
+% Field Coursework:
+
+% \vspace{3pt}
+
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{2}
+%             \begin{itemize}[itemsep=-5pt]
+%                 \item Econometrics II \\
+%                 \item Supply-Side Health Economics\\
+%                 \item Demand-Side Health Economics\\
+%                 \item Advanced Microeconometrics\\
+%                 \item Labor Economics \\
+%                 \item Empirical Industrial Organization\\
+%                 \item Teaching Economics\\
+%                 \item Market Structure $\&$ Imperfect Competition
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+    
+% \vspace{4mm}
+
+% --------------- PUBLICATIONS -------------
+\section{Peer-Reviewed Publications in Economics}
+\begin{enumerate}
+    \item Chatterji, P., \textbf{Glenn, H.}, Markowitz, S., \& Montez, J. K. (2023). Affordable Care Act Medicaid expansions and maternal morbidity, \textit{Health Economics}.
+\end{enumerate}
+
+%---------- JOB MARKET PAPER-----------
+\section{Job Market Paper}
+    \vspace{-5pt}
+            \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Does Hospital Leadership Matter? Evidence from Pay-for-Performance} }
+          
+          \vspace{-3mm}
+              Firm leaders can be important drivers of culture, direction, and strategies of firms. In US health care, policies often aim to improve quality of care without increasing costs, yet it is unclear whether hospital leaders might play a role in this. I show that hospitals without clinically trained executive improve quality more in response to the incentive change than hospitals with clinically trained executives. 
+          \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Working Papers}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Labor Markets and Technological Change: Evidence from EHRs $|$ \emph{R\&R at Journal of Health Economics} }}
+          
+            \vspace{-3mm}
+          
+          In this paper, I investigate changes in physician behavior as a result of a major technology shift in US hospitals, the adoption of electronic health records (EHRs). I treat EHR adoption in hospitals as an exogenous shock to hospitalists, and estimate average group time treatment effects on various labor market outcomes. I find that hospitalists are more likely to leave clinical work altogether, and more likely to shift work to an office setting due to EHRs. For hospitalists that continue working in the hospital, EHRs lead to an increase in patients seen. 
+
+         \resumeSubHeadingListEnd
+
+
+          %-----------PROJECTS-----------
+%\section{Works in Progress}
+    %\vspace{-5pt}
+    %\resumeSubHeadingListStart
+      %\resumeProjectHeading
+          %{future paper title}
+          
+
+         %\resumeSubHeadingListEnd
+
+          %\vspace{1mm}
+
+
+
+
+%----------- RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+
+      \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Research Assistant: Ian McCarthy, Ph.D.} & \textit{\small Summer 2024 -- Current}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{Incorporating physician pictures into predictions of race based on name and location.}
+      \resumeItemListEnd
+
+      \vspace{1mm}
+
+        \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Research Assistant: Evan Saltzman, Ph.D.} & \textit{\small Spring 2023 - Current}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{Extending models of health insurance company behavior to include dynamic decision making.}
+      \resumeItemListEnd
+
+
+      
+%----------- TEACHING EXPERIENCE-----------
+\section{Teaching Experience}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Guest Lecturer, Economics and Psychology} & \textit{\small Spring 2024}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{Provided lecture on the intersection of behavioral and health economics.}
+      \resumeItemListEnd
+    
+    \vspace{1mm}
+
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Intermediate Microeconomics Weekly Math Review Sessions} & \textit{\small Fall 2023 -- Spring 2024}\end{tabular*}
+    
+    \vspace{1mm}
+
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Instructor: Intermediate Microeconomics} & \textit{\small Summer 2022}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{Course evaluation: 8.04/9}
+      \resumeItemListEnd
+    
+    \vspace{1mm}
+      
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Teaching Assistant: Professor Hashem Dezhbakhsh} & \textit{\small Fall 2021 -- 2023}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{Held weekly office hours, hosted collaborative review sessions for all students prior to each exam, and managed team of undergraduate teaching assistants for a 200-student Principles of Microeconomics course.}
+      \resumeItemListEnd
+      
+      \vspace{1mm}
+      
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Guest Lecturer, Undergraduate Honors Research Workshop} & \textit{\small Fall 2020 -- 2023}\end{tabular*}
+      \resumeItemListStart
+      \vspace{-2mm}
+        \resumeItem{For four class sessions, I lectured on foundational skills in research, including workflow, brainstorming research questions, and replicability.}
+      \resumeItemListEnd
+    
+    \vspace{1mm}
+   
+    
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small Grader, Graduate level Microeconomic Theory I, Professor Teddy Kim. } & \textit{\small Fall 2020}\end{tabular*}
+
+
+
+%
+%-----------CONFERENCES-----------
+\section{Conference Presentations}
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small European Society of Population Economics, \textit{Rotterdam} & \textit{\small July 2024}\\
+      \small European Health Economics Association, \textit{Vienna} & \textit{\small June 2024}\\
+      \small American Society of Health Economists, \textit{St. Louis} & \textit{\small June 2023}\\
+      \small Young Economist Symposium, \textit{New Haven} & \textit{\small Fall 2022}\\
+      \small Academy of Economics and Finance, \textit{Tampa} & \textit{\small Fall 2018}
+\end{tabular*}
+
+ %
+%-----------AWARDS/HONORS-----------
+\section{Awards/Honors}
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small Emory Department of Economics Excellence in Research Award & \textit{\small Spring 2024}\\
+      \small Emory University 3-Minute-Thesis Competition Runner-Up & \textit{\small Spring 2023}\\
+      \small Emory Department of Economics Excellence in Teaching Award & \textit{\small Spring 2022}
+\end{tabular*}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Software}{: R, Stata, Python, \LaTeX} \\
+    }}
+ \end{itemize}
+ \vspace{-13pt}
+ 
+
+
+
+
+% ----------------- REFERENCES ------------------- %
+\section{References}
+
+\vspace{1mm}
+
+Please request reference letters from all writers through the proxy \textbf{\small \href{mailto:econjm@emory.edu}{\raisebox{-0.2\height}\faEnvelope\  econjm@emory.edu}}
+
+\vspace{3mm}
+    
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small Dr. Ian McCarthy}, Committee Chair & \\%\textbf{\small \href{mailto:ian.mccarthy@emory.edu}{\raisebox{-0.2\height}\faEnvelope\  ian.mccarthy@emory.edu}} \\
+      \hspace{5mm}\textit{\small Associate Professor} \\
+      \hspace{5mm}\textit{\small Department of Economics, Emory University} \\
+    \end{tabular*}
+
+    \vspace{2mm}
+
+            \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small Dr. Sara Markowitz}, Committee Member & \\%\textbf{\small \href{mailto:smarko2@emory.edu}%{\raisebox{-0.2\height}\faEnvelope\  smarko2@emory.edu}} \\
+      \hspace{5mm}\textit{\small Professor} \\
+      \hspace{5mm}\textit{\small Department of Economics, Emory University} \\
+    \end{tabular*}
+
+    \vspace{2mm}
+
+        \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small Dr. Evan Saltzman}, Committee Member & \\%\textbf{\small \href{mailto:esaltzman@business.fsu.edu}%{\raisebox{-0.2\height}\faEnvelope\  %esaltzman@business.fsu.edu}} \\
+      \hspace{5mm}\textit{\small Assistant Professor} \\
+      \hspace{5mm}\textit{\small Department of Risk Management/Insurance, Real Estate and Legal Studies} \\
+      \hspace{5mm}\textit{\small Florida State University}\\
+    \end{tabular*}
+
+       %\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      %\textbf{\small Matthew Grennan}, Committee Member & %\textbf{\small \href{mailto:matthew.grennan@emory.edu}%{\raisebox{-0.2\height}\faEnvelope\  %matthew.grennan@emory.edu}} \\
+      %\hspace{5mm}\textit{\small Associate Professor} \\
+      %\hspace{5mm}\textit{\small Department of Economics, Emory %University} \\
+    %\end{tabular*}
+
+    \vspace{2mm}
+
+        \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small Dr. Hashem Dezhbakhsh} & \textbf{\small \href{mailto:econhd@emory.edu}} \\
+      \hspace{5mm}\textit{\small Chair and Goodrich C. White Professor} \\
+      \hspace{5mm}\textit{\small Department of Economics, Emory University} \\
+    \end{tabular*}
+
+
+\end{document}
