@@ -1,7 +1,7 @@
 ---
 title: "Affordable Care Act Medicaid expansions and maternal morbidity"
 collection: publications
-category: Published Papers in Economics
+category: econpublished
 permalink: /publication/2023-maternal-morbidity-ACA
 excerpt: ''
 date: 2023-06-06
