@@ -84,14 +84,18 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  econpublished:
+    title: 'Published Papers in Economics'
+  workingpapers:
+    title: 'Working Papers' 
   books:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  econpublished:
-    title: 'Published Papers in Economics'
+   
+
     
 
 # Site Settings
