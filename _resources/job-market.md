@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Job Market Materials"
-permalink: /resources/job-market-materials/
+permalink: /resources/job-market/
 author_profile: true
 classes: wide
 toc: true
