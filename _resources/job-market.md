@@ -1,9 +1,9 @@
 ---
 title: "My tips on the economics job market"
-collection: resources
 permalink: /resources/job-market/
 excerpt: "Practical tips and strategies for navigating the economics job market."
 date: 2025-01-01
+classes: wide
 ---
 
 # Job Market Materials - 2024/2025
