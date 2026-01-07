@@ -23,7 +23,7 @@ repository               : hannaglenn/hannaglenn.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Hanna Glenn"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer of Economics"
