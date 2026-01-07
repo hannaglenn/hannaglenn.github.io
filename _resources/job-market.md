@@ -1,10 +1,15 @@
 ---
-title: "My tips on the economics job market"
-permalink: /resources/job-market/
-excerpt: "Practical tips and strategies for navigating the economics job market."
-date: 2025-01-01
+layout: single
+title: "Job Market Materials"
+permalink: /resources/job-market-materials/
+author_profile: true
 classes: wide
+toc: true
+toc_label: "On This Page"
+toc_icon: "list"
+show_date: false
 ---
+
 
 # Job Market Materials - 2024/2025
 
