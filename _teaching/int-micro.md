@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "ECON 201: Intermediate Microeconomics"
 collection: teaching
 type: "Undergraduate Course"
@@ -7,7 +8,7 @@ venue: "Emory University"
 date: 2022-06-06
 ---
 
-Instructor Rating: 8.04/9
+Instructor Rating: 8/9
 
 Select Student Quotes:
 
