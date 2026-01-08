@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Job Market Materials - 2024/2025 cycle"
+title: "Job Market Materials - 2024/2025"
 permalink: /resources/job-market/
 author_profile: true
 classes: wide
 toc: true
 toc_label: "On This Page"
 toc_icon: "list"
+toc_sticky: true
 show_date: false
 ---
 
@@ -60,7 +61,7 @@ The basic items you should prepare before you begin applications are: (1) resear
 
 #### Research Statement
 
-My research statement is linked [here](https://hannaglenn.github.io/files/Research-Statement.pdf). The purpose of this document is to articulate your research agenda. You want to talk about your past/current research, and emphasize anything that signals it is quality research (publications, awards, etc.). You'll also want to talk about your future research plans. While it doesn't have to be as much detail, it is good to show that you have a clear direction where you can make contributions. While it seems like a small thing, I really liked the idea of bolding paper titles in this document to give readers an anchor for each section. 
+My research statement is linked [here](https://hannaglenn.github.io/files/Sample-Documents/Research-Statement.pdf). The purpose of this document is to articulate your research agenda. You want to talk about your past/current research, and emphasize anything that signals it is quality research (publications, awards, etc.). You'll also want to talk about your future research plans. While it doesn't have to be as much detail, it is good to show that you have a clear direction where you can make contributions. While it seems like a small thing, I really liked the idea of bolding paper titles in this document to give readers an anchor for each section. 
 
 #### Teaching Statement
 
@@ -73,8 +74,6 @@ My diversity and inclusion statement is linked [here](https://hannaglenn.github.
 #### Cover Letter Templates
 
 I applied to every job I felt qualified for (this resulted in almost 300 applications). I am aware of the debate on whether to spend time customizing cover letters... to me, it was worth the extra time for the peace of mind that I didn't get denied just because of a generic cover letter. I made customization easier by starting with 4 cover letter templates that I used as a base: [academic](https://hannaglenn.github.io/files/Sample-Documents/Academic-Cover-Letter.pdf), [teaching](https://hannaglenn.github.io/files/Sample-Documents/Teaching-Cover-Letter.pdf), [postdoc](https://hannaglenn.github.io/files/Sample-Documents/postdoc-Cover-Letter.pdf), and [industry](https://hannaglenn.github.io/files/Sample-Documents/industry-Cover-Letter.pdf). These are largely similar, but the order in which you talk about things is important (*start* with teaching for a liberal arts position!). I tried to add a desirable attribute of the department and of the location for each position. The most important thing here is to make sure you don't forget to change the institution-specific details!
-
-I also included [Latex template files](https://hannaglenn.github.io/files/Sample-Documents/Cover-Letter-Template-Tex) to include letterhead and signature on the cover letter. Simply replace all Emory-specific elements if you are at another University.
 
 #### CV
 
