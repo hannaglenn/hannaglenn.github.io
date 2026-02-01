@@ -1,5 +1,5 @@
 ---
-title: "ECON 7030"
+title: "ECON 7030: Microeconomic Analysis"
 collection: teaching
 type: "Masters Course"
 permalink: /teaching/7030
