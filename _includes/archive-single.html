@@ -34,6 +34,41 @@
       {% endif %}
     </h2>
     
+    {% comment %}
+Show authors on archive/list pages for publications.
+Supports:
+- authors: ["Name 1", "Name 2"]
+- authors: [{name: "Name", url: "https://..."}, {name: "Name", orcid: "0000-..."}]
+{% endcomment %}
+{% if post.collection == 'publications' and post.authors %}
+
+  {% if post.authors.first and post.authors.first.name %}
+    {%- comment -%} Object format {%- endcomment -%}
+    <p class="archive__item-authors">
+      <strong>Authors:</strong>
+      {% for a in post.authors %}
+        {% assign author_name = a.name | default: a %}
+        {% if a.url %}
+          <a href="{{ a.url | escape }}">{{ author_name }}</a>
+        {% elsif a.orcid %}
+          <a href="https://orcid.org/{{ a.orcid | strip | escape }}">{{ author_name }}</a>
+        {% else %}
+          {{ author_name }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+
+  {% else %}
+    {%- comment -%} Simple string list {%- endcomment -%}
+    <p class="archive__item-authors">
+      <strong>Authors:</strong> {{ post.authors | join: ", " }}
+    </p>
+  {% endif %}
+
+{% endif %}
+
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
