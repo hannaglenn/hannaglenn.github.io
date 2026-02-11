@@ -4,7 +4,6 @@ collection: publications
 category: workingpapers
 permalink: /publication/2026-executives-P4P
 excerpt: "I study how executive backgrounds influence hospital responses to pay-for-performance incentives. Hospitals led by non-clinical executives react more strongly to quality-based financial incentives than those led by clinically trained leaders, underscoring the role of managerial expertise in shaping organizational behavior."
-date: 2026-01-02
 paperurl: 'https://hannaglenn.github.io/files/hospital_leadership.pdf'
 
 authors:
